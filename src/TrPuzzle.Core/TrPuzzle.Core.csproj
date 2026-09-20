@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+</PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\puzzles\public-btc-puzzles.json" LogicalName="TrPuzzle.Manifests.public-btc-puzzles.json" />
+    <EmbeddedResource Include="..\..\puzzles\test-vectors.json" LogicalName="TrPuzzle.Manifests.test-vectors.json" />
+  </ItemGroup>
+
+</Project>

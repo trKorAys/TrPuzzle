@@ -1,0 +1,11 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+checkpoints/*.db
+checkpoints/*.db-*
+checkpoints/*.vault
+crash-reports/
+.build/

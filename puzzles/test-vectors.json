@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "manifestType": "trpuzzle-approved-targets",
+  "targets": [
+    {
+      "id": "test-scalar-1",
+      "name": "secp256k1 compressed public key: scalar 1",
+      "kind": "test-vector",
+      "network": "bitcoin-mainnet",
+      "status": "solved-test-vector",
+      "keyRangeStart": "0000000000000000000000000000000000000000000000000000000000000001",
+      "keyRangeEnd": "0000000000000000000000000000000000000000000000000000000000000008",
+      "targetHash160": "751e76e8199196d454941c45d1b3a323f1433bd6",
+      "source": "https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses"
+    },
+    {
+      "id": "test-scalar-16",
+      "name": "secp256k1 compressed public key: scalar 16",
+      "kind": "test-vector",
+      "network": "bitcoin-mainnet",
+      "status": "solved-test-vector",
+      "keyRangeStart": "0000000000000000000000000000000000000000000000000000000000000009",
+      "keyRangeEnd": "0000000000000000000000000000000000000000000000000000000000000018",
+      "targetHash160": "60aa32549d990a09863b8fd4ce611ebd70bb310b",
+      "source": "TrPuzzle deterministic test vector; independently recomputed during tests"
+    },
+    {
+      "id": "test-scalar-255",
+      "name": "secp256k1 compressed public key: scalar 255",
+      "kind": "test-vector",
+      "network": "bitcoin-mainnet",
+      "status": "solved-test-vector",
+      "keyRangeStart": "00000000000000000000000000000000000000000000000000000000000000ff",
+      "keyRangeEnd": "00000000000000000000000000000000000000000000000000000000000000ff",
+      "targetHash160": "864cccbcbd47cf92a1d64fc67a1b505405757b29",
+      "source": "TrPuzzle deterministic high-bit test vector; independently recomputed during tests"
+    },
+    {
+      "id": "test-scalar-128-high",
+      "name": "secp256k1 compressed public key: 2^128 + 1",
+      "kind": "test-vector",
+      "network": "bitcoin-mainnet",
+      "status": "solved-test-vector",
+      "keyRangeStart": "0000000000000000000000000000000100000000000000000000000000000001",
+      "keyRangeEnd": "0000000000000000000000000000000100000000000000000000000000000001",
+      "targetHash160": "1a23ee428a9db56a02053e657528dc6bb500aea8",
+      "source": "TrPuzzle deterministic high-bit test vector; independently recomputed during tests"
+    },
+    {
+      "id": "test-scalar-255-high",
+      "name": "secp256k1 compressed public key: 2^255 + 123",
+      "kind": "test-vector",
+      "network": "bitcoin-mainnet",
+      "status": "solved-test-vector",
+      "keyRangeStart": "800000000000000000000000000000000000000000000000000000000000007b",
+      "keyRangeEnd": "800000000000000000000000000000000000000000000000000000000000007b",
+      "targetHash160": "d1c007cb7205f0fcd78f008df5c4d8edea4b4c9e",
+      "source": "TrPuzzle deterministic high-bit test vector; independently recomputed during tests"
+    }
+  ]
+}
